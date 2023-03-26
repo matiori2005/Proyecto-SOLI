@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* pagina home */
+
+/* header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #E8C4C4;
+    text-align: center;
+} */
+
+header{
+    background-color: #E8C4C4;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #F7E5E5;
+    font-size: 20px;
+}
+
+
+
+/* .home {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 130px;
+    padding-right: 120px;
+}
+
+.work {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.servicios {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.contacto {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+} */
+
+body {
+    background-color: #F7E5E5;
+}
+
+.section-logo-1 {
+    width: 100%;
+    height: 350px;
+    background-color: #F7E5E5;
+    background-image: url("../assets/img/logo-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+p {
+    text-align: center;
+    font-size: 150%;
+    color: #A7727D;
+}
+
+.section-logo-2 {
+    width: 100%;
+    height: 350px;
+    background-color: #F7E5E5;
+    background-image: url("../assets/img/logo-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.parrafo-subrayado {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E8C4C4;
+    text-align: center;
+    display: flex;
+}
+
+/* footer div {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+} */
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex: 1;
+    
+}
+
+
+/* .behance {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.linkedin {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.facebook {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.instagran {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.pinterest {
+    padding-left: 100px;
+    padding-right: 100px;
+}  */
+
+
+
+/* pagina work */
+
+.header-work {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F7E5E5;
+    background-image: url("../assets/img/logo-1-muy\ chico.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #E8C4C4;
+}
+
+.work-home {
+    text-decoration: none;
+    font-size: 20px;
+    color: #A7727D;
+    padding-left: 100px;
+    padding-right: 120px;
+}
+
+.work-work {
+    text-decoration: none;
+    font-size: 20px;
+    color: #A7727D;
+    padding-left: 120px;
+    padding-right: 150px;
+}
+
+.work-servicios {
+    text-decoration: none;
+    font-size: 20px;
+    color: #A7727D;
+    padding-left: 150px;
+    padding-right: 120px;
+}
+
+.work-contacto {
+    text-decoration: none;
+    font-size: 20px;
+    color: #A7727D;
+    padding-left: 120px;
+    padding-right: 100px;
+}
+
+.section-logo-3 {
+    width: 100%;
+    height: 270px;
+    background-image: url("../assets/img/logo-3-300px.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flecha-work {
+    width: 100%;
+    height: 270px;
+    background-image: url("../assets/img/flecha-150.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.parrafo-trabajo {
+    color: #E8C4C4;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.work-behance {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.work-linkedin {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.work-facebook {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.work-instagran {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.work-pinterest {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.work-mail {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.parrafo-footerby {
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* pagina contacto */
+
+.parrafo-contacto{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #E8C4C4;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* pagina servicios */
+
+.main-contacto{
+    width: 500px;
+    height: 330px;
+}
+
+/* pagina nosotros */
+
+.main-nosotros{
+    width: 100%;
+    height: 600px;
+}
+
+.parrafo-nosotros{
+    text-align: justify;
+    color: #E8C4C4;
+    margin-right: 400px;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.logo-2-nosotros{
+    width: 100%;
+    height: 270px;
+    background-image: url("../assets/img/logo-3-300px.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
