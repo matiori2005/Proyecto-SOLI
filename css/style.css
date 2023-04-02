@@ -12,20 +12,21 @@
     height: 100vh;
     grid-template-columns: 1fr;
     grid-template-rows: 10% 130% 10%;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer"
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
     ;
 }
 
-header{
+header {
     background-color: #E8C4C4;
     grid-area: header;
 }
-.navbar{
+
+.navbar {
     display: grid;
-    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: repeat(1, 40px);
     grid-template-areas: "item1 item2 item3 item4 item5";
     justify-items: center;
@@ -33,25 +34,25 @@ header{
     padding-top: 25px;
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     color: white;
     font-size: 25px;
 }
 
-main{
+main {
     width: 100%;
     background-color: #F7E5E5;
     grid-area: main;
 }
 
-.mainhome-imagenes{
-    display:grid;
+.mainhome-imagenes {
+    display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 170px 10px 300px;  
+    grid-template-rows: 300px 170px 10px 300px;
 }
 
-.main1{
+.main1 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -61,7 +62,7 @@ main{
     align-content: center;
 }
 
-.main2{
+.main2 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -87,10 +88,10 @@ main{
     color: #A7727D;
     text-decoration: overline;
     text-decoration: underline;
-    
+
 }
 
-.main4{
+.main4 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
@@ -102,14 +103,14 @@ main{
 }
 
 
-footer{
+footer {
     background-color: #E8C4C4;
     grid-area: footer;
 }
 
-.footer-pie{
+.footer-pie {
     display: grid;
-    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: repeat(1, 75px);
     grid-template-areas: "pie1 pie2 pie3 pie4 pie5 ";
     justify-items: center;
@@ -119,14 +120,14 @@ footer{
 /* pagina Work */
 
 
-.header-work{
+.header-work {
     background-color: white;
     grid-area: header;
 }
 
-.navbar-work{
+.navbar-work {
     display: grid;
-    grid-template-columns:20% 15% 15% 15% 15% 15%;
+    grid-template-columns: 20% 15% 15% 15% 15% 15%;
     grid-template-rows: repeat(1, 75px);
     grid-template-areas: "work1 work2 work3 work4 work5 work6";
     justify-items: center;
@@ -134,17 +135,17 @@ footer{
     align-content: center;
     padding-top: 5px;
 }
-.navbar-work a{
+
+.navbar-work a {
     text-decoration: none;
     color: #E8C4C4;
     font-size: 20px;
 }
 
-.main-work{
-width: 100%;
-height: 220vh;   
+.main-work {
+    width: 100%;
+    height: 220vh;
 }
-
 
 .imagen-main {
     display: flex;
@@ -152,16 +153,17 @@ height: 220vh;
     align-items: center;
     flex: 1;
 }
-.main-work div h2{
+
+.main-work div h2 {
     display: flex;
     justify-content: center;
     font-size: 300%;
     font-weight: bold;
-    color: #E8C4C4;  
+    color: #E8C4C4;
     padding-bottom: 100px;
-} 
+}
 
-.tarjeta{
+.tarjeta {
     display: inline-flex;
     padding-left: 32px;
     padding-right: 32px;
@@ -169,31 +171,33 @@ height: 220vh;
     padding-bottom: 15px;
 }
 
-.tarjetita-imagen{
+.tarjetita-imagen {
     max-width: 350px;
 }
 
-footer section p{
+footer section p {
     text-align: center;
 }
 
 /* pagina contacto */
 
 
-.main-contacto{
+.main-contacto {
     width: 100%;
     height: 100vh;
     padding-left: 20px;
     padding-right: 20px;
 }
-.parrafo-contacto{
+
+.parrafo-contacto {
     text-align: center;
     font-size: 20px;
     color: #A7727D;
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.boton-contacto{
+
+.boton-contacto {
     color: #F7E5E5;
     font-size: 14px;
     background-color: #A7727D;
@@ -203,67 +207,156 @@ footer section p{
 
 /*  responsive pagina Home 1024 */
 @media screen and (max-width: 1024px) {
-        
+
     .home {
         grid-template-columns: 1024px;
     }
 
-.main4{
-    width: 100%;
-}
+    .main4 {
+        width: 100%;
+    }
 }
 
 /* responsive pagina Home 768 */
 @media screen and (max-width: 768px) {
 
-.home {
-    grid-template-columns: 768px;
-}
+    .home {
+        grid-template-columns: 768px;
+    }
 
-.navbar a{
-    font-size: 18px;
-}
+    .navbar a {
+        font-size: 18px;
+    }
 
-.main1{
-    width: 50%;
-}
+    .main1 {
+        width: 50%;
+    }
 
-.main2{
-    font-size: 100%;
-}
+    .main2 {
+        font-size: 100%;
+    }
 
-.main3{
-    font-size: 100%;
-}
+    .main3 {
+        font-size: 100%;
+    }
 }
 
 /* responsive pagina Home 320 */
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
 
     .home {
         grid-template-columns: 320px;
         grid-template-rows: 5% 100% 6%;
     }
 
-    .navbar a{
+    .navbar a {
         font-size: 10px;
         padding-bottom: 45px;
     }
 
-    .mainhome-imagenes{
-        grid-template-rows: 150px 100px 1px 150px;  
+    .mainhome-imagenes {
+        grid-template-rows: 150px 100px 1px 150px;
     }
 
-    .main2{
+    .main2 {
         font-size: 50%;
     }
-    
-    .main3{
-        font-size: 50%;   
-    } 
 
-    .footer-pie{
+    .main3 {
+        font-size: 50%;
+    }
+
+    .footer-pie {
         grid-template-rows: repeat(1, 45px);
 
+    }
 }
+
+/*responsive pagina Work 1024*/
+
+@media screen and (max-width: 1024px) {
+
+    .main-work {
+        width: 100%;
+        padding-left: 35px;
+        /* background-image: url("../assets/img/logo-2.png");
+        background-repeat: no-repeat;
+        background-position:bottom; */
+    }
+
+    .tarjetita-imagen {
+        display: flex;
+        max-width: 250px;
+    }
+
+    .imagen-main {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .main-work div h2 {
+        padding-bottom: 150px;
+    }
+}
+
+/* responsive pagina work 768 */
+@media screen and (max-width: 768px) {
+
+    .main-work {
+        width: 100%;
+        padding-left: 70px;
+    }
+}
+
+/* responsive pagina Work 320 */
+@media screen and (max-width: 768px) {
+
+    .navbar-work a {
+        font-size: 10px;
+        grid-template-rows: repeat(1, 45px);
+    }
+
+    .main-work {
+        padding-left: 1px;
+    }
+
+    .work1 {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .wmain1 {
+        width: 50%;
+        padding-top: -70px;
+    }
+
+    .main-work div h2 {
+
+        font-size: 150%;
+        padding-bottom: 10px;
+    }
+
+    .imagen-main {
+        padding-top: 5px;
+    }
+
+    .tarjeta {
+        padding-left: 70px;
+        padding-top: 1px;
+    }
+
+    .tarjetita-imagen {
+        display: flex;
+        max-width: 100%;
+        height: 140px;
+    }
+
+    section div h3 {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .parrafo-footerby {
+        font-size: 13px;
+    }
 }
