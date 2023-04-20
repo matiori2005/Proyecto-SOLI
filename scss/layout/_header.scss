@@ -1,0 +1,17 @@
+header{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 6px 5px 6px 5px;
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar a{
+        font-size: 16px;
+        color: #E8C4C4;
+        text-decoration: none;
+    }
+}

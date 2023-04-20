@@ -1,0 +1,64 @@
+@media screen and (min-width: 1440px) {
+    main {
+        .imagen-main1 {
+            padding: 10px 500px 10px 500px;
+        }
+
+        div p {
+            font-size: 20px;
+        }
+
+        .imagen-main2 {
+            padding: 5px 200px 5px 200px;
+        }
+        .main-parrafo{
+            padding: 0;
+        }
+    }
+}
+
+//work 1440//
+@media screen and (min-width: 1440px) {
+
+    main {
+        .wmain1 {
+            max-width: 200px;
+            max-height: 200px;
+            padding: 0;
+        }
+
+        .wmain2 {
+            font-size: 25px;
+            padding: 0;
+        }
+
+        .container-card {
+            width: 100%;
+
+            .tarjeta {
+                padding: 3px 3px 3px 3px;
+            }
+
+            .tarjetita {
+                max-width: 320px;
+                max-height: 270px;
+
+            }
+
+            h3 {
+                font-size: 21px;
+                color: #A7727D;
+            }
+        }
+    }
+}
+
+//nosotros 1440//
+
+.parrafo-nosotros {
+    height: auto;
+    font-size: 24px;
+}
+.input-width{
+    width: 100%;
+}

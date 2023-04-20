@@ -1,0 +1,60 @@
+@media screen and (min-width: 1024px) {
+    main {
+        .imagen-main1 {
+            padding: 20px 300px 20px 300px;
+        }
+
+        div p {
+            font-size: 21px;
+        }
+
+        .imagen-main2 {
+            padding: 10px 150px 10px 150px;
+        }
+    }
+}
+
+//work 1024//
+@media screen and (min-width: 1024px) {
+
+    main {
+        .wmain1 {
+            max-width: 160px;
+            max-height: 160px;
+        }
+
+        .wmain2 {
+            font-size: 30px;
+            padding: 0;
+        }
+
+        .container-card {
+            width: 100%;
+
+            .tarjeta {
+                padding: 3px 3px 3px 3px;
+            }
+
+            .tarjetita {
+                max-width: 200px;
+                max-height: 180px;
+
+            }
+
+            h3 {
+                font-size: 21px;
+                color: #A7727D;
+            }
+        }
+    }
+}
+
+//nosotros 1024//
+
+.parrafo-nosotros {
+    height: auto;
+    font-size: 22px;
+    text-align: justify;
+    color: #A7727D;
+    padding: 33px 20px 32px 20px;
+}

@@ -1,0 +1,46 @@
+@media screen and (min-width: 425px) {
+    main{
+        div p{
+            font-size: 18px;
+    }
+        .main-cuerpo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+        }
+        .imagen-main1{
+            padding: 30px 70px 30px 70px;
+        }
+        .imagen-main2{
+            padding: 7px 0px 7px 0px;
+        }
+    }
+}
+
+//Work 425//
+
+main{
+    .wmain1{
+        max-width: 120px;
+        max-height: 120px;
+    }
+    .wmain2{
+        font-size: 22px;
+        color: #A7727D; 
+        padding-bottom: 30px;
+     }
+}
+
+//nosotros 425//
+.parrafo-nosotros{
+    padding: 10px 10px 10px 10px;
+}
+
+//contacto 425//
+.textarea{
+    width: 100%;
+}
+.boton-contacto:hover{
+    background-color: lightcoral;
+}
