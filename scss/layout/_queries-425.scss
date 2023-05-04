@@ -16,7 +16,7 @@
             padding: 7px 0px 7px 0px;
         }
     }
-}
+
 
 //Work 425//
 
@@ -43,4 +43,13 @@ main{
 }
 .boton-contacto:hover{
     background-color: lightcoral;
+}
+
+//paginas works auxiliares//
+
+main{
+    .carousel-inner img{
+        height: 48vh;
+    }
+}
 }

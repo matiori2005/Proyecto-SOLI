@@ -1,49 +1,56 @@
-@media screen and (min-width: 768px){
-    main{
-        .main-cuerpo{
+@media screen and (min-width: 768px) {
+    main {
+        .main-cuerpo {
             display: flex;
             flex-direction: column;
             justify-content: center;
             // width: 100%;
         }
-        div p{
+
+        div p {
             font-size: 19px;
-    }
-        .imagen-main1{
+        }
+
+        .imagen-main1 {
             padding: 20px 200px 20px 200px;
+        }
+    }
+
+
+//work 768//
+
+main {
+    .wmain1 {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .wmain2 {
+        font-size: 25px;
+    }
+
+    .container-card {
+        width: 100%;
+
+        .tarjeta {
+            padding: 3px 3px 3px 3px;
+        }
+
+        .tarjetita {
+            max-width: 166px;
+            max-height: 170px;
+
+        }
+
+        h3 {
+            font-size: 21px;
+            color: #A7727D;
         }
     }
 }
 
-//work 768//
-
-main{
-    .wmain1{
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .wmain2{
-        font-size: 25px;
-     }
-     .container-card{
-        width: 100%;
-        .tarjeta{
-            padding: 3px 3px 3px 3px;
-        }   
-        .tarjetita{
-            max-width: 166px;
-            max-height: 170px;
-            
-        }
-        h3{
-            font-size: 21px;
-            color: #A7727D;
-        }
-        }  
-} 
-
 //nosotros 768//
-.parrafo-nosotros{
+.parrafo-nosotros {
     height: auto;
     font-size: 20px;
     text-align: justify;
@@ -53,32 +60,49 @@ main{
 
 //contacto 768//
 
-.main-contacto{
+.main-contacto {
     padding: 30px 15px 20px 15px;
 }
-.parrafo-contacto{
+
+.parrafo-contacto {
     font-size: 20px;
     color: #A7727D;
-    p{
+
+    p {
         text-align: justify;
     }
 }
-main legend{
+
+main legend {
     padding-bottom: 25px;
 }
-span{
+
+span {
     font-size: 22px;
-        color: #A7727D;
-    }
-    .boton-contacto {
-        font-size: 17px;
-    }
-    .boton-contacto:hover{
-        background-color: lightcoral;
-    }
-main form{
-    display:flex;
+    color: #A7727D;
+}
+
+.boton-contacto {
+    font-size: 17px;
+}
+
+.boton-contacto:hover {
+    background-color: lightcoral;
+}
+
+main form {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     padding: 15px 15px 15px 15px;
+}
+
+//pagina work auxiliares//
+
+main{
+    .carousel-inner img{
+        height: 48vh;
+        padding: 0px 50px 0px 50px;
+    }
+}
 }

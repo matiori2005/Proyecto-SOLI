@@ -58,3 +58,13 @@
     color: #A7727D;
     padding: 33px 20px 32px 20px;
 }
+
+//pagina work auxiliar//
+@media screen and (min-width: 1024px){
+main{
+    .carousel-inner img{
+        height: 47vh;
+        padding: 0px 150px 0px 150px;
+    }
+}
+}

@@ -57,8 +57,18 @@
 
 .parrafo-nosotros {
     height: auto;
-    font-size: 24px;
+    font-size: 25px;
 }
 .input-width{
     width: 100%;
+}
+
+//pagina work auxiliar//
+@media screen and (min-width: 1440px){
+main{
+    .carousel-inner img{
+        height: 47vh;
+        padding: 0px 250px 0px 250px;
+    }
+}
 }
