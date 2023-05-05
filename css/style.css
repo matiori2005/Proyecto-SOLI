@@ -94,6 +94,26 @@ main .container-card h3 {
 }
 
 .main-servicios {
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.wmain1-servicios {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.wmain2-servicios {
+  font-size: 30px;
+  color: #A7727D;
+  padding-bottom: 15px;
+}
+
+video {
+  padding-bottom: 30px;
+}
+
+.main-servicios {
   display: flex;
   flex-direction: column;
 }
@@ -397,11 +417,11 @@ span {
 @media screen and (min-width: 1440px) {
   main .carousel-inner img {
     height: 47vh;
-    padding: 0px 250px 0px 250px;
+    padding: 0px 350px 0px 350px;
   }
 }
 .main-work2 {
-  height: auto;
+  height: 100vb;
 }
 
 .titulo-work2 {
@@ -411,8 +431,7 @@ span {
 }
 
 .carousel-inner {
-  height: 50vh;
-  padding-bottom: 100px;
+  padding: 5px 15px 5px 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
